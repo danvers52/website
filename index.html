@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Dynamics</title>
+</head>
+<body>
+    <div id="notification-message" style="
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        z-index: 1000;
+        display: none;
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;">
+    </div>
+    
+    <header class="main-header">
+        <div class="item">
+            <div class="text">
+                <h1 class="FuturisticGlow">Computer Dynamics</h1>
+                <h2 class="Glowing">Products on Sale! Up to 25% off.</h2>
+                <h3 class="AnimatedText">Sign up for the membership to receive for exclusive deals!</h3>
+                <h4 class="SubtleBoxHighlight">Computer Dynamics is a company specialising in computer hardware and software upgrades
+                    as well as selling top-tier game experiences with our products and services alike! If you're looking for a custom-built,
+                    quality gaming laptops and computers, upgrades for your gaming setup, peripherals to draw you into your fantasy reality,
+                    or services to upgrade your already well-designed setup; then you have come to the right place!  
+                </h4>
+                <nav>
+                    <a href="#" id="cart-link">Shopping Cart <span id="cartIconCount">0</span></a>
+                </nav>
+            </div>
+        </div>
+
+        <nav class="main-nav-links">
+            <section class="nav-category-group">
+                <h2>About</h2>
+                <ul class="nav-list">
+                    <li><a href="#about-us-section">About Us</a></li>
+                    <li><a href="#upgrade-services-section">Upgrade Services</a></li>
+                    <li><a href="#contact-us-section">Contact Us</a></li>
+                </ul>
+            </section>
+
+            <section class="nav-category-group">
+                <h2>Products</h2>
+                <ul class="nav-list">
+                    <li><a href="#products-deals-section">Deals</a></li>
+                    <li><a href="#products-preorders-section">Pre-Orders</a></li>
+                    <li><a href="#gaming-laptops-section">Gaming Laptops</a></li>
+                    <li><a href="#gaming-desktops-section">Gaming Desktops</a></li>
+                    <li><a href="#emulators-section">Emulators</a></li>
+                    <li><a href="#peripherals-section">Peripherals</a></li>
+                </ul>
+            </section>
+
+            <section class="nav-category-group">
+                <h2>Games</h2>
+                <ul class="nav-list">
+                    <li><a href="#game-deals-section">Deals</a></li>
+                    <li><a href="#game-preorders-section">Pre-Orders</a></li>
+                    <li><a href="#classics-section">Classics</a></li>
+                    <li><a href="#latest-section">Top 10!</a></li>
+                </ul>
+            </section>
+
+            <section class="nav-category-group">
+                <h2>Cart</h2>
+                <ul class="nav-list">
+                    <li><a href="#cart-section" class="cart-link">Shopping Cart</a></li>
+                </ul>
+            </section>
+
+        </nav>
+    </header>
+
+    <main> <section id="products-deals-section" class="content">
+            <div class="heading"> <h1 class="PageHeading">Deals</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>Let your wallet fly with our special prices off for you today!</p>
+                <div class="products-deals-container"> <div class="products-deal-item">
+                        <img src="assets/laptop005.png" alt="ASUS TUF Gaming1">
+                        <p class="green">#1 Best laptop Seller!</p>
+                        <p>ASUS TUF Gaming A15 AMD. Ryzen 5 7535HS, 8GBRAM
+                            512GB SSD, RTX 2050 4GB, FHD Windows 11 Home 15.6"
+                            Backlit keyboard, Anti-glare coating, numeric pad
+                            NVIDIA GeForce GTX GPU</p>
+                        <p class="price">R13 500</p>
+                        <button class="btn" data-product-id="laptop005" data-product-name="ASUS TUF Gaming1" data-product-price="13500.00">Add to Cart!</button>
+                    </div>
+                
+                    <div class="products-deal-item">
+                        <img src="assets/laptop006.png" alt="ASUS Vivobook">
+                        <p class="green">Cheapest laptop deal in store now!</p>
+                        <p>ASUS Vivobook 15 (X1504), Intel Core i5 1334U, 8GBRAM
+                            512GB SSD (Up to 1TB), FHD Windows 11 Home 15.6"
+                            Backlit Chiclet keyboard, US MIL-STD 810H (military-grade)
+                            Anti-glare coating</p>
+                        <p class="price">R9 000</p>
+                        <button class="btn" data-product-id="laptop006" data-product-name="ASUS Vivobook" data-product-price="9000.00">Add to Cart!</button>
+                    </div>
+
+                    <div class="products-deal-item">
+                        <img src="assets/laptop009.png" alt="Acer Aspire">
+                        <p class="green">#2 Best laptop Seller!</p>
+                        <p>Acer Aspire Lite16, Core i5 1335U, 8GBRAM DDR5
+                            512GB SSD, Windows 10 Home 16", NTSc GPU</p>
+                        <p class="price">R 9 700</p>
+                        <button class="btn" data-product-id="laptop009" data-product-name="Acer Aspire" data-product-price="9700.00">Add to Cart!</button>
+                    </div>
+
+                    <div class="products-deal-item">
+                        <img src="assets/desk004.png" alt="HPREFURBISHED Elite">
+                        <p class="green">#1 Best desktop Seller!</p>
+                        <p>HPREFURBISHED Elite 8300 SFF, Quad Core i5 3770H
+                            8GBRAM, 256GB SSD + DvD, LCD Windows 11 Professional 19"</p>
+                        <p class="price">R2 700</p>
+                        <button class="btn" data-product-id="desk004" data-product-name="HPREFURBISHED Elite" data-product-price="2700.00">Add to Cart!</button>
+                    </div>
+
+                    <div class="products-deal-item">
+                        <img src="assets/desk008.png" alt="Armaggeddon Triton">
+                        <p class="green">Cheapest desktop deal in store now!</p>
+                        <p>Armaggeddon Triton Pro 300, ATX + MATX + ITX motherboards
+                            RGB with ARGB lighting, HDD + SDD slots</p>
+                        <p class="price">R800</p>
+                        <button class="btn" data-product-id="desk008" data-product-name="Armaggeddon Triton" data-product-price="800.00">Add to Cart!</button>
+                    </div>
+
+                    <div class="products-deal-item">
+                        <img src="assets/desk009.png" alt="Armaggeddon Aquadron">
+                        <p class="green">#2 Best desktop Seller!</p>
+                        <p>Armaggeddon Aquadron Pro, ATX motherboard, RGB with ARGB
+                            lighting, Dual tampered glass panel, liquid cooling radiator</p>
+                        <p class="price">R924</p>
+                        <button class="btn" data-product-id="desk009" data-product-name="Armaggeddon Aquadron" data-product-price="924.00">Add to Cart!</button>
+                    </div>
+
+                    <div class="home-link-container"><a href="../index.html" class="home-return-link">Go back to Home</a></div>
+                </div> </div>
+            </div>
+        </section>
+
+        <section id="products-preorders-section" class="content">
+            <div class="heading"> <h1 class="PageHeading">Pre-Orders</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>Be the first to work like Tony Stark with our early-bird tech deals!</p>
+                <div class="products-preorders-container"> <div class="products-preorders-item">
+                        <img src="assets/laptop001.png" alt="Apple Macbook Pro">
+                        <p class="green">#1 Top Ranker!</p>
+                        <p>Apple Macbook Pro, 16GBRAM, 512GB SSD, M4 Chip: 10 Core CPU
+                            10 Core GPU, Liquid Rentina XDR Display 14"</p>
+                        <p class="price">R33 000</p>
+                        <button class="btn" data-product-id="laptop001" data-product-name="Apple Macbook Pro" data-product-price="33000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="products-preorders-item">
+                        <img src="assets/laptop002.png" alt="ASUS TUF Gaming2">
+                        <p class="green">#2 Top Ranker!</p>
+                        <p>ASUS TUF Gaming A16 AMD, Ryzen 9 7845HX Mobile
+                            16GB DDR5, 1TB PCIE G4 SSD, RTX4070, 8GBRAM
+                            Windows 11 Home 16", Backlit keyboard, Anti-glare coating</p>
+                        <p class="price">R34 000</p>
+                        <button class="btn" data-product-id="laptop002" data-product-name="ASUS TUF Gaming2" data-product-price="34000.00">Add to Cart!</button>
+                    </div>
+
+                    <div class="products-preorders-item">
+                        <img src="assets/laptop004.png" alt="MSI Thin">
+                        <p class="green">#3 Top Ranker!</p>
+                        <p>MSI Thin 15 Gaming, Intel Core i7 12620H, RTX4050
+                            16GBRAM, 512GB SSD, Windows 11 Home FHD 15.6"</p>
+                        <p class="price">R19 000</p>
+                        <button class="btn" data-product-id="laptop004" data-product-name="MSI Thin" data-product-price="19000.00">Add to Cart!</button>
+                    </div>
+                    
+                    <div class="products-preorders-item">
+                        <img src="assets/desk006.png" alt="HPREFURBISHED Elite2">
+                        <p class="green">#4 Top Ranker!</p>
+                        <p>HPREFURBISHED Elite 8300 SFF, Quad Intel Core i5 3770H
+                            Windows 11 Professional LCD 19", 8GBRAM, 500GB HDD</p>
+                        <p class="price">R2 300</p>
+                        <button class="btn" data-product-id="desk006" data-product-name="HPREFURBISHED Elite2" data-product-price="2300.00">Add to Cart!</button>
+                    </div>
+
+                    <div class="products-preorders-item">
+                        <img src="assets/desk007.png" alt="Dell Precision">
+                        <p class="green">#5 Top Ranker!</p>
+                        <p>Dell Precision Tower 3042 SFF, 6th Gen Core i5 6500H
+                            8GBRAM DDR4, 256GB M.2 NVMe SSD, Windows 11 Pro Wide LED Monitor
+                            22", Intel HD, GPU 500</p>
+                        <p class="price">R4 500</p>
+                        <button class="btn" data-product-id="desk007" data-product-name="Dell Precision" data-product-price="4500.00">Add to Cart!</button>
+                    </div>
+
+                    <div class="products-preorders-item">
+                        <img src="assets/desk010.png" alt="RefurbDELL OptiPlex">
+                        <p class="green">#6 Top Ranker!</p>
+                        <p>RefurbDELL OptiPlex 5260, 8th Gen Core i7 8700H
+                            16GBRAM, 256BD SSD, 21.5" FHD Display Windows 11 Pro
+                            Intel UHD GPU 630: 6 Cores, 32GB DDR4, SODIMM</p>
+                        <p class="price">R7 700</p>
+                        <button class="btn" data-product-id="desk010" data-product-name="RefurbDELL OptiPlex" data-product-price="7700.00">Add to Cart!</button>
+                    </div>
+
+                    <div class="home-link-container"><a href="/index.html" class="home-return-link">Go back to Home</a></div>
+                </div> </div>
+            </div>   
+        </section>
+
+        <section id="games-deals-section" class="content">
+            <div class="heading"> <h1 class="PageHeading">Deals</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>Discover the latest games for the greatest titles</p>
+                <div class="game-deal-container"><div class="game-deal-item">
+                        <img src="assets/game003.png" alt="Fortnite">
+                        <p class="green">#1 Best Top Seller!</p>
+                        <p>Epic Games presents Fortnite: a multiplayer online game featuring game
+                            modes such as Battle Royale, collaborative private island, or a quest to 
+                            Save the World including deathruns, tycoons, running and zombie survival!</p>
+                        <p class="price">R350</p> 
+                       <button class="btn" data-product-id="game003" data-product-name="Fortnite" data-product-price="350.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="game-deal-item">
+                        <img src="assets/game004.png" alt="Roblox">
+                        <p class="green">Cheapest Top game deal!</p>
+                        <p>Roblox Corporation presents to you Roblox! The ultimate virtual universe!
+                            where imagination is just the beginning!</p>
+                        <p class="price">R200</p>
+                       <button class="btn" data-product-id="game004" data-product-name="Roblox" data-product-price="200.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="game-deal-item">
+                        <img src="assets/game009.png" alt="Apex Legends">
+                        <p class="green">#3 Best Top Seller!</p>
+                        <p>Respawn Entertainment and Electronic Arts presents Apex Legends: the best
+                            Hero Shooter roleplay to ever exist!</p>
+                        <p class="price">R370</p>
+                       <button class="btn" data-product-id="game009" data-product-name="Apex Legends" data-product-price="370.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="game-deal-item">
+                        <img src="assets/retro004.png" alt="Street Fighter 2">
+                        <p class="green">#4 Best Classic Seller!</p>
+                        <p>Capcom for arcades presents Street Fighter 2, The World Warrior game with
+                            worldwide martial arts tournaments combating against some the most diverse 
+                            challengers to ever live!</p>
+                        <p class="price">R360</p>
+                       <button class="btn" data-product-id="retro004" data-product-name="Street Fighter 2" data-product-price="360.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="game-deal-item">
+                        <img src="assets/retro005.png" alt="Ocarina of Time">
+                        <p class="green">#5 Best Classic Seller!</p>
+                        <p>Super Nintendo Computers presents The Legend of Zelda: Ocarina of Time. An 
+                            action-adventure game primarily for Nintendo64 with 3D graphics, epic adventures
+                            puzzles and rich storylines!</p>
+                        <p class="price">R350</p>
+                       <button class="btn" data-product-id="retro005" data-product-name="Ocarina of Time" data-product-price="350.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="game-deal-item">
+                        <img src="assets/retro008.png" alt="A Link to The Past">
+                        <p class="green">Classic game</p>
+                        <p>Super Nintendo Computers presents The Legend of Zelda: A Link to The Past. An
+                            action-adventure game with stunning 2D grapics with immersive worlds,
+                            intricate dungeons and intrusive storylines!</p>
+                        <p class="price">R350</p>
+                       <button class="btn" data-product-id="retro008" data-product-name="A Link to The Past" data-product-price="350.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="home-link-container"><a href="/index.html" class="home-return-link">Go back to Home</a></div>
+                </div> </div>
+            </div> 
+        </section>
+
+        <section id="game-preorders-section" class="content">
+            <div class="heading"> <h1 class="PageHeading">Pre-Orders</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>First come, first serve! Be the first to get the best game for your best performance</p>
+                <div class="game-preorders-container"><div class="game-preorders-item">
+                        <img src="assets/game001.png" alt="Counter-Strike 2">
+                        <p class="green">#1 Top 10 Seller!</p>
+                        <p>Valve Corporation presents Counter-Strike 2 as the best first person shooter game to ever exist!</p>
+                        <p class="price">R400</p>
+                       <button class="btn" data-product-id="game001" data-product-name="Counter-Strike 2" data-product-price="400.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="game-preorders-item">
+                        <img src="assets/game005.png" alt="Sims 4">
+                        <p class="green">#5 Top 10 Seller!</p>
+                        <p>Maxis Entertainment and Electronic Arts presents Sims 4! A social stimulation game
+                            following the adventures and imagination of Sims 3</p>
+                        <p class="price">R350</p>
+                       <button class="btn" data-product-id="game005" data-product-name="Sims 4" data-product-price="350.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="game-preorders-item">
+                        <img src="assets/game006.png" alt="League of Legends">
+                        <p class="green">Top 10 game</p>
+                        <p>Riot games presents League of Legends! A multiplayer online battle arena game
+                            combating the enemy, Noxus with other realms and nations</p>
+                        <p class="price">R450</p>
+                       <button class="btn" data-product-id="game006" data-product-name="League of Legends" data-product-price="450.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="game-preorders-item">
+                        <img src="assets/retro002.png" alt="Final Fantasy 7">
+                        <p class="green">#2 Best Classic Seller!</p>
+                        <p>Square Corporation presents Final Fantasy 7, the seventh installment of the
+                            Sony Computer Entertainment series with intricate character designs and immersive
+                            storylines!</p>
+                        <p class="price">R700</p>
+                       <button class="btn" data-product-id="retro002" data-product-name="Final Fantasy 7" data-product-price="700.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="game-preorders-item">
+                        <img src="assets/retro009.png" alt="Space Invaders">
+                        <p class="green">Classic game</p>
+                        <p>Taito for arcades presents Space Invaders! Join us on a first cover shooter
+                            game to ever exist as we attempt to fend off the extraterrestrial force!</p>
+                        <p class="price">R700</p>
+                       <button class="btn" data-product-id="retro009" data-product-name="Space Invaders" data-product-price="700.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="game-preorders-item">
+                        <img src="assets/retro010.png" alt="Resident Evil">
+                        <p class="green">Classic game</p>
+                        <p>Capcom presents their first survival horror, Resident Evil! Explore this
+                            third + first person shooter while trying to survive in environments surrounded 
+                            by zombies and other mutated creatures</p>
+                        <p class="price">R700</p>
+                       <button class="btn" data-product-id="retro010" data-product-name="Resident Evil" data-product-price="700.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="home-link-container"><a href="/index.html" class="home-return-link">Go back to Home</a></div>
+                </div> </div>
+            </div>
+        </section>
+
+        <section id="gaming-laptops-section" class="content">
+            <div class="heading"> <h1 class="PageHeading">Gaming Laptops</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>Get tech-savvy and move around just like your open-world</p>
+                <div class="laptop-container"><div class="laptop-item">
+                        <img src="assets/laptop001.png" alt="Apple Macbook Pro">
+                        <p class="green">#1 Best Seller overall!</p>
+                        <p>Apple Macbook Pro, 16GBRAM, 512GB SSD, M4 Chip: 10 Core CPU
+                            10 Core GPU, Liquid Rentina XDR Display 14"</p>
+                        <p class="price">R33 000</p>
+                        <button class="btn" data-product-id="laptop001" data-product-name="Apple Macbook Pro" data-product-price="33000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="laptop-item">
+                        <img src="assets/laptop002.png" alt="ASUS TUF Gaming2">
+                        <p class="green">#2 Best Seller overall!</p>
+                        <p>ASUS TUF Gaming A16 AMD, Ryzen 9 7845HX Mobile
+                            16GB DDR5, 1TB PCIE G4 SSD, RTX4070, 8GBRAM
+                            Windows 11 Home 16", Backlit keyboard, Anti-glare coating</p>
+                        <p class="price">R34 000</p>
+                        <button class="btn" data-product-id="laptop002" data-product-name="ASUS TUF Gaming2" data-product-price="34000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="laptop-item">
+                        <img src="assets/laptop003.png" alt="ASUS ROG Zephyrus">
+                        <p class="green">#3 Best Seller overall!</p>
+                        <p>ASUS ROG Zephyrus, Intel Core Ultra 9 285H, 32GBRAM, 2TB SSD
+                            NVIDIA GeForce RTX5070TI, 2.5k OLED Nebula Display: UESA 
+                            Display HDR Windows 11 Home 16", ROG Cooling tech: vapor chamber 
+                            Tri-fan tech, liquid metal, Backlit keyboard, Anti-glare coating, numeric pad</p>
+                        <p class="price">R62 000</p>
+                        <button class="btn" data-product-id="laptop003" data-product-name="ASUS ROG Zephyrus" data-product-price="62000.00">Add to Cart!</button> 
+                    </div>   
+
+                    <div class="laptop-item">
+                        <img src="assets/laptop004.png" alt="MSI Thin">
+                        <p>MSI Thin 15 Gaming, Intel Core i7 12620H, RTX4050
+                            16GBRAM, 512GB SSD, Windows 11 Home FHD 15.6"</p>
+                        <p class="price">R19 000</p>
+                        <button class="btn" data-product-id="laptop004" data-product-name="MSI Thin" data-product-price="19000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="laptop-item">
+                        <img src="assets/laptop005.png" alt="ASUS TUF Gaming1">
+                        <p>ASUS TUF Gaming A15 AMD. Ryzen 5 7535HS, 8GBRAM
+                            512GB SSD, RTX 2050 4GB, FHD Windows 11 Home 15.6"
+                            Backlit keyboard, Anti-glare coating, numeric pad
+                            NVIDIA GeForce GTX GPU</p>
+                        <p class="price">R13 500</p>
+                        <button class="btn" data-product-id="laptop005" data-product-name="ASUS TUF Gaming1" data-product-price="13500.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="laptop-item">
+                        <img src="assets/laptop006.png" alt="ASUS Vivobook">
+                        <p>ASUS Vivobook 15 (X1504), Intel Core i5 1334U, 8GBRAM
+                            512GB SSD (Up to 1TB), FHD Windows 11 Home 15.6"
+                            Backlit Chiclet keyboard, US MIL-STD 810H (military-grade)
+                            Anti-glare coating</p>
+                        <p class="price">R9 000</p>
+                        <button class="btn" data-product-id="laptop006" data-product-name="ASUS Vivobook" data-product-price="9000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="laptop-item">
+                        <img src="assets/laptop007.png" alt="ASUS TUF Gaming3">
+                        <p>ASUS TUF Gaming A15 (FA506NC) AMD, Ryzen 5 7535HS, 8GBRAM DDR5
+                            512GB SSD, NVIDIA RTX3050, Windows 11 Home FHD 15.6", 84 blade
+                            ArcFlow fans, MIL-STD 810H</p>
+                        <p class="price">R14 000</p>
+                        <button class="btn" data-product-id="laptop007" data-product-name="ASUS TUF Gaming3" data-product-price="14000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="laptop-item">
+                        <img src="assets/laptop008.png" alt="ASUS ROG Strix">
+                        <p>ASUS ROG Strix Scar G835, 2.5k OLED Windows 11 Home 18"
+                            Ultra Intel Core 90, NVIDIA GeForce RTX5080 275HX, GPU GDDR7
+                            32GBRAM DDR5-5600 SODIMM, 2TB PCIE, 4.0NVMe, M.2 SSD, Backlit
+                            Chiclet keyboard, RGB Touchpad</p>
+                        <p class="price">R94 000</p>
+                        <button class="btn" data-product-id="laptop008" data-product-name="ASUS ROG Strix" data-product-price="94000.00">Add to Cart!</button> 
+                    </div>
+                
+                    <div class="laptop-item">
+                        <img src="assets/laptop009.png" alt="Acer Aspire">
+                        <p>Acer Aspire Lite16, Intel Core i5 1335U, 8GBRAM DDR5
+                            512GB SSD, Windows 10 Home 16", NTSc GPU</p>
+                        <p class="price">R 9 700</p>
+                        <button class="btn" data-product-id="laptop009" data-product-name="Acer Aspire" data-product-price="9700.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="laptop-item">
+                        <img src="assets/laptop010.png" alt="Apple Macbook Pro">
+                        <p>Apple Macbook Pro, M4 chip: 14 core CPU, 32 core GPU
+                            Liquid Retina XDR Display 16.2", 36GBRAM, 1TB SSD</p>
+                        <p class="price">R74 000</p>
+                        <button class="btn" data-product-id="laptop010" data-product-name="Apple Macbook Pro" data-product-price="74000.00">Add to Cart!</button> 
+                    </div> 
+                    
+                    <div class="home-link-container"><a href="/index.html" class="home-return-link">Go back to Home</a></div>
+                </div> </div>
+            </div>
+        </section>
+
+        <section id="gaming-desktops-section" class="content">
+            <div class="heading"> <h1 class="PageHeading">Gaming Desktops</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>Build your empire with ulimate performance and custom-built servers at your service</p>
+                <div class="desktop-container"> <div class="desktop-item">
+                        <img src="assets/desk003.png" alt="Apple iMAC">
+                        <p class="green">#1 Best Seller overall!</p>
+                        <p>Apple iMAC, M4 Chip: 10 Cores CPU + 10 Cores GPU, 25" Liquid 4.5k
+                            Retina Display, 24GBRAM, 512GB SSD</p>
+                        <p class="price">R44 000</p>
+                        <button class="btn" data-product-id="desk003" data-product-name="Apple iMAC" data-product-price="44000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="desktop-item">
+                        <img src="assets/desk002.png" alt="ADMI Gaming">
+                        <p class="green">#2 Best Seller overall!</p>
+                        <p>ADMI Gaming PC, AMD Ryzen 7 5700X, NVIDIA RTX4070: 8 Cores, 12GB GDDR6
+                            32GBRAM DDR4, 1TB NVMe SSD, 700W PSU, MSI M100R RGB Case, Windows 11 Pro</p>
+                        <p class="price">R27 000</p>
+                        <button class="btn" data-product-id="desk002" data-product-name="ADMI Gaming" data-product-price="27000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="desktop-item">
+                        <img src="assets/desk001.png" alt="STG Aubron Gaming">
+                        <p class="green">#3 Best Seller overall!</p>
+                        <p>STG Aubron Gaming PC Desktop, NVIDIA GeForce RTX2060 Super 8GBRAM GDDR6
+                            AMD Ryzen 7 Pro 2700: 8 Cores + 16GB DDR4, 1TB SSD, 600M WiFi, BT5.0, RGB Fanx6
+                            RGB Mouse Pad, Windows 11 Home, RGB Mouse + keyboard</p>
+                        <p class="price">R16 000</p>
+                        <button class="btn" data-product-id="desk001" data-product-name="STG Aubron Gaming" data-product-price="16000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="desktop-item">
+                        <img src="assets/desk004.png" alt="HPREFURBISHED Elite">
+                        <p>HPREFURBISHED Elite 8300 SFF, Quad Core i5 3770H
+                            8GBRAM, 256GB SSD + DvD, LCD Windows 11 Professional 19"</p>
+                        <p class="price">R2 700</p>
+                        <button class="btn" data-product-id="desk004" data-product-name="HPREFURBISHED Elite" data-product-price="2700.00">Add to Cart!</button> 
+                    </div>
+                    
+                    <div class="desktop-item">
+                        <img src="assets/desk005.png" alt="PCBuilder">
+                        <p>PCBuilder, AMD Ryzen 5 5500, GTX1650, 4GBRAM, 1TB SSD
+                            Windows 11 Home 25"</p>
+                        <p class="price">R13 900</p>
+                        <button class="btn" data-product-id="desk005" data-product-name="PCBuilder" data-product-price="13900.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="desktop-item">
+                        <img src="assets/desk006.png" alt="HPREFURBISHED Elite2">
+                        <p>HPREFURBISHED Elite 8300 SFF, Quad Intel Core i5 3770H
+                            Windows 11 Professional LCD 19", 8GBRAM, 500GB HDD</p>
+                        <p class="price">R2 300</p>
+                        <button class="btn" data-product-id="desk006" data-product-name="HPREFURBISHED Elite2" data-product-price="2300.00">Add to Cart!</button> 
+                    </div>
+
+                     <div class="desktop-item">
+                        <img src="assets/desk007.png" alt="Dell Precision">
+                        <p>Dell Precision Tower 3042 SFF, 6th Gen Core i5 6500H
+                            8GBRAM DDR4, 256GB M.2 NVMe SSD, Windows 11 Pro Wide LED Monitor
+                            22", Intel HD, GPU 500</p>
+                        <p class="price">R4 500</p>
+                        <button class="btn" data-product-id="desk007" data-product-name="Dell Precision" data-product-price="4500.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="desktop-item">
+                        <img src="assets/desk008.png" alt="Armaggeddon Triton">
+                        <p>Armaggeddon Triton Pro 300, ATX + MATX + ITX motherboards
+                            RGB with ARGB lighting, HDD + SDD slots</p>
+                        <p class="price">R800</p>
+                       <button class="btn" data-product-id="desk008" data-product-name="Armaggeddon Triton" data-product-price="800.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="desktop-item">
+                        <img src="assets/desk009.png" alt="Armaggeddon Aquadron">
+                        <p>Armaggeddon Aquadron Pro, ATX motherboard, RGB with ARGB
+                            lighting, Dual tampered glass panel, liquid cooling radiator</p>
+                        <p class="price">R924</p>
+                       <button class="btn" data-product-id="desk009" data-product-name="Armaggeddon Aquadron" data-product-price="924.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="desktop-item">
+                        <img src="assets/desk010.png" alt="RefurbDELL OptiPlex">
+                        <p>RefurbDELL OptiPlex 5260, 8th Gen Core i7 8700H
+                            16GBRAM, 256BD SSD, 21.5" FHD Display Windows 11 Pro
+                            Intel UHD GPU 630: 6 Cores, 32GB DDR4, SODIMM</p>
+                        <p class="price">R7 700</p>
+                       <button class="btn" data-product-id="desk010" data-product-name="RefurbDELL OptiPlex" data-product-price="7700.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="home-link-container"><a href="/index.html" class="home-return-link">Go back to Home</a></div>
+                </div> </div>
+            </div>
+        </section>
+
+        <section id="emulators-section" class="content">
+            <div class="heading"> <h1 class="PageHeading">Emulators</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>Relive the glory days with our selection of the earliest 90 games</p>
+                <div class="emu-container"><div class="emu-item">
+                        <img src="assets/emu001.png" alt="Bluestack">
+                        <p class="green">Bluestack: Android</p>
+                        <p>Bluestacks are popular and versatile android emulators which
+                            are known for their user-friendiless and wide range of games</p>
+                        <p class="price">R202</p>
+                       <button class="btn" data-product-id="emu001" data-product-name="Bluestack" data-product-price="202.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="emu-item">
+                        <img src="assets/emu002.png" alt="GameLoop">
+                        <p class="green">GameLoop: Android</p>
+                        <p>GameLoop emulators are optimized for android gaming, especially
+                            games utilizing Tecent Titles making it perfect for Call of Duty mobile</p>
+                        <p class="price">R922</p>
+                       <button class="btn" data-product-id="emu002" data-product-name="GameLoop" data-product-price="922.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="emu-item">
+                        <img src="assets/emu003.png" alt="NoxPlayer">
+                        <p class="green">NoxPlayer: Android</p>
+                        <p>NoxPlayer is utilized for balanced performace and features. And optimizing
+                            sideloading for GooglePlay</p>
+                        <p class="price">R500</p>
+                       <button class="btn" data-product-id="emu003" data-product-name="NoxPlayer" data-product-price="500.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="emu-item">
+                        <img src="assets/emu004.png" alt="MEmu Play">
+                        <p class="green">MEmu Play: Android</p>
+                        <p>The MEmu Play emulator are best known for there performance and compatibility</p>
+                        <p class="price">R350</p>
+                       <button class="btn" data-product-id="emu004" data-product-name="MEmu Play" data-product-price="350.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="emu-item">
+                        <img src="assets/emu005.png" alt="PCSX2">
+                        <p class="green">PCSX2: Retro</p>
+                        <p>The PCSX2 is perfect for emulating the early Play Station 2
+                            games with best performaces on your PC!</p>
+                        <p class="price">R500</p>
+                       <button class="btn" data-product-id="emu005" data-product-name="PCSX2" data-product-price="500.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="emu-item">
+                        <img src="assets/emu006.png" alt="RPCS3">
+                        <p class="green">RPCS3: Retro</p>
+                        <p>The RPCS3 are best known for their performance emulating the 
+                            best Play Station 3 games on your gaming PC set-up!</p>
+                        <p class="price">R700</p>
+                       <button class="btn" data-product-id="emu006" data-product-name="RPCS3" data-product-price="700.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="emu-item">
+                        <img src="assets/emu007.png" alt="Citra">
+                        <p class="green">Citra: Retro</p>
+                        <p>Citra emulators give gamers a chance to take a splash in the
+                            Nintendo 3DS retro prime time!</p>
+                        <p class="price">R1700</p>
+                       <button class="btn" data-product-id="emu007" data-product-name="Citra" data-product-price="1700.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="emu-item">
+                        <img src="assets/emu008.png" alt="PPSSPP">
+                        <p class="green">PPSSPP: Retro</p>
+                        <p>The PPSSPP emulator is known for its classic Play Station game 
+                            emulator experience for gamers looking for that retro theme!</p>
+                        <p class="price">R950</p>
+                       <button class="btn" data-product-id="emu008" data-product-name="PPSSPP" data-product-price="950.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="home-link-container"><a href="/index.html" class="home-return-link">Go back to Home</a></div>
+                </div> </div>
+            </div>
+        </section>
+        
+         <section id="peripherals-section" class="content">
+            <div class="heading"> <h1 class="PageHeading">Peripherals</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>Enhance your gaming experience with the best of the best gaming equipment to make your gaming stimulation feel real!</p>
+                <div class="peri-container"> <div class="peri-item">
+                        <img src="assets/peri001.png" alt="ASUS TUF">
+                        <p>ASUS TUF Gaming, 27" monitor with FHD LED Display</p>
+                        <p class="price">R4 000</p>
+                       <button class="btn" data-product-id="peri001" data-product-name="ASUS TUF" data-product-price="4000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="peri-item">
+                        <img src="assets/peri002.png" alt="LG UltraGear">
+                        <p>LG UltraGear, 24" monitor with FHD IPS Display</p>
+                        <p class="price">R3 000</p>
+                       <button class="btn" data-product-id="peri002" data-product-name="LG UltraGear" data-product-price="3000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="peri-item">
+                        <img src="assets/peri003.png" alt="Razer Basilisk Mouse">
+                        <p>Razer Basilisk Pro V3 wireless mouse best it for comfortability</p>
+                        <p class="price">R3 800</p>
+                       <button class="btn" data-product-id="peri003" data-product-name="Razer Basilisk Mouse" data-product-price="3800.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="peri-item">
+                        <img src="assets/peri004.png" alt="Redragon M612-RGB Mouse">
+                        <p>Redragon M612-RGB wired mouse to add a slick glow gaming look to your set-up</p>
+                        <p class="price">R230</p>
+                       <button class="btn" data-product-id="peri004" data-product-name="Redragon M612-RGB Mouse" data-product-price="230.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="peri-item">
+                        <img src="assets/peri005.png" alt="Logitech G502 Mouse">
+                        <p>Logitech G502 wireless mouse best known for its speed perfomance and durability for PC gaming</p>
+                        <p class="price">R2 000</p>
+                       <button class="btn" data-product-id="peri005" data-product-name="Logitech G502 Mouse" data-product-price="2000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="peri-item">
+                        <img src="assets/peri006.png" alt="ASUS ROG Delta">
+                        <p>ASUS ROG Delta wired gaming headset, mic included</p>
+                        <p class="price">R3 000</p>
+                       <button class="btn" data-product-id="peri006" data-product-name="ASUS ROG Delta" data-product-price="3000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="peri-item">
+                        <img src="assets/peri007.png" alt="Corsair VIRTUOSO-RGB">
+                        <p>Corsair VIRTUOSO-RGB wireless gaming headset, white, mic included</p>
+                        <p class="price">R4 600</p>
+                       <button class="btn" data-product-id="peri007" data-product-name="Corsair VIRTUOSO-RGB" data-product-price="4600.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="peri-item">
+                        <img src="assets/peri008.png" alt="Logitech G733">
+                        <p>Logitech G733 wireless gaming headset, white, mic included</p>
+                        <p class="price">R2 800</p>
+                       <button class="btn" data-product-id="peri008" data-product-name="Logitech G733" data-product-price="2800.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="peri-item">
+                        <img src="assets/peri009.png" alt="Razer Deathstalker">
+                        <p>Razer Deathstalker wired black backlit gaming keyboard, numeric pad included</p>
+                        <p class="price">R6 000</p>
+                       <button class="btn" data-product-id="peri009" data-product-name="Razer Deathstalker" data-product-price="6000.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="peri-item">
+                        <img src="assets/peri010.png" alt="Redragon Kumara 87">
+                        <p>Redragon Kumara 87 wired white backlit keyboard, numeric pad included</p>
+                        <p class="price">R770</p>
+                       <button class="btn" data-product-id="peri010" data-product-name="Redragon Kumara 87" data-product-price="770.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="peri-item">
+                        <img src="assets/peri011.png" alt="MOFII wireless">
+                        <p>MOFII wireless blue keyboard with mouse included, round typerwriter keys, USB
+                            receiver for Plug and Play: laptop, PC, Chromebook, Smart TV</p>
+                        <p class="price">R840</p>
+                       <button class="btn" data-product-id="peri011" data-product-name="MOFII wireless" data-product-price="840.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="home-link-container"><a href="/index.html" class="home-return-link">Go back to Home</a></div>
+                </div> </div>
+            </div>
+        </section>
+
+        <section id="classics-section">
+            <div class="heading"> <h1 class="PageHeading">Classics</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>Get groovy with the movies our exclusive 90s selection!</p>
+                <div class="classic-container"><div class="classic-item">
+                        <img src="assets/retro001.png" alt="Sonic the Hedgehog 2">
+                        <p class="green">#1 Best Classic Seller!</p>
+                        <p>Sega Technical Institute for Sega Genesis presents Sonic the Hedgehog 2! Help
+                            Sonic stop Doctor Robotnik from stealing the Chaos Emeralds to power his station
+                            the Death Egg</p>
+                        <p class="price">R600</p>
+                       <button class="btn" data-product-id="retro001" data-product-name="Sonic the Hedgehog 2" data-product-price="600.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="classic-item">
+                        <img src="assets/retro002.png" alt="Final Fantasy 7">
+                        <p class="green">#2 Best Classic Seller!</p>
+                        <p>Square Corporation presents Final Fantasy 7, the seventh installment of the
+                            Sony Computer Entertainment series with intricate character designs and immersive
+                            storylines!</p>
+                        <p class="price">R700</p>
+                       <button class="btn" data-product-id="retro002" data-product-name="Final Fantasy 7" data-product-price="700.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="classic-item">
+                        <img src="assets/retro003.png" alt="Doom">
+                        <p class="green">#3 Best Classic Seller!</p>
+                        <p>Software for MS-DOS presents Doom, a first person shooter game. Join the space
+                            marine, Doomguy, on his mission to fight through hordes of zombies and invading 
+                            demons</p>
+                        <p class="price">R450</p>
+                       <button class="btn" data-product-id="retro003" data-product-name="Doom" data-product-price="450.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="classic-item">
+                        <img src="assets/retro004.png" alt="Street Fighter 2">
+                        <p class="green">#4 Best Classic Seller!</p>
+                        <p>Capcom for arcades presents Street Fighter 2, The World Warrior game with
+                            worldwide martial arts tournaments combating against some the most diverse 
+                            challengers to ever live!</p>
+                        <p class="price">R360</p>
+                       <button class="btn" data-product-id="retro004" data-product-name="Street Fighter 2" data-product-price="360.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="classic-item">
+                        <img src="assets/retro005.png" alt="Ocarina of Time">
+                        <p class="green">#5 Best Classic Seller!</p>
+                        <p>Super Nintendo Computers presents The Legend of Zelda: Ocarina of Time. An 
+                            action-adventure game primarily for Nintendo64 with 3D graphics, epic adventures
+                            puzzles and rich storylines!</p>
+                        <p class="price">R350</p>
+                       <button class="btn" data-product-id="retro005" data-product-name="Ocarina of Time" data-product-price="350.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="classic-item">
+                        <img src="assets/retro006.png" alt="Super Mario Kart">
+                        <p>Super Nintendo Computers presents Super Mario Kart! A racing game with
+                            challenging tracks with F-Zero designs as multiplayer</p>
+                        <p class="price">R500</p>
+                       <button class="btn" data-product-id="retro006" data-product-name="Super Mario Kart" data-product-price="500.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="classic-item">
+                        <img src="assets/retro007.png" alt="Donkey Kong">
+                        <p>Super Nintendo Computers presents Donkey Kong! The first Mario installment
+                            as he runs, jumps on platforms and climbs ladders to ascend a construction 
+                            site in hopes to rescue the beautiful Pauline from the giant gorilla, Donkey Kong</p>
+                        <p class="price">R500</p>
+                       <button class="btn" data-product-id="retro007" data-product-name="Donkey Kong" data-product-price="500.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="classic-item">
+                        <img src="assets/retro008.png" alt="A Link to The Past">
+                        <p>Super Nintendo Computers presents The Legend of Zelda: A Link to The Past. An
+                            action-adventure game with stunning 2D grapics with immersive worlds,
+                            intricate dungeons and intrusive storylines!</p>
+                        <p class="price">R350</p>
+                       <button class="btn" data-product-id="retro008" data-product-name="A Link to The Past" data-product-price="350.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="classic-item">
+                        <img src="assets/retro009.png" alt="Space Invaders">
+                         <p>Taito for arcades presents Space Invaders! Join us on a first cover shooter
+                            game to ever exist as we attempt to fend off the extraterrestrial force!</p>
+                        <p class="price">R700</p>
+                       <button class="btn" data-product-id="retro009" data-product-name="Space Invaders" data-product-price="700.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="classic-item">
+                        <img src="assets/retro010.png" alt="Resident Evil">
+                        <p>Capcom presents their first survival horror, Resident Evil! Explore this
+                            third + first person shooter while trying to survive in environments surrounded 
+                            by zombies and other mutated creatures</p>
+                        <p class="price">R700</p>
+                       <button class="btn" data-product-id="retro010" data-product-name="Resident Evil" data-product-price="700.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="home-link-container"><a href="/index.html" class="home-return-link">Go back to Home</a></div>
+                </div> </div>
+            </div>
+        </section>
+
+        <section id="latest-section" class="content">
+            <div class="heading"><h1 class="PageHeading">Top 10!</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>Be up and running the year's top 10 games!</p>
+                <div class="latest-container"><div class="latest-item">
+                        <img src="assets/game001.png" alt="Counter-Strike 2">
+                        <p class="green">#1 Top 10 game!</p>
+                        <p>Valve Corporation presents Counter-Strike 2 as the best first person shooter game to ever exist!</p>
+                        <p class="price">R400</p>
+                       <button class="btn" data-product-id="game001" data-product-name="Counter-Strike 2" data-product-price="400.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="latest-item">
+                        <img src="assets/game002.png" alt="Minecraft">
+                        <p class="green">#2 Top 10 game!</p>
+                        <p>Mojang Studios presents the Java and Bedrock Minecraft Edition! The original 3D open
+                            world Minecraft with multiple game modes such as Creative, Survival, Adventure, Hard core and Spectator!</p>
+                        <p class="price">R500</p>
+                       <button class="btn" data-product-id="game002" data-product-name="Minecraft" data-product-price="500.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="latest-item">
+                        <img src="assets/game003.png" alt="Fortnite">
+                        <p class="green">#3 Top 10 game!</p>
+                        <p>Epic Games presents Fortnite: a multiplayer online game featuring game
+                            modes such as Battle Royale, collaborative private island, or a quest to 
+                            Save the World including deathruns, tycoons, running and zombie survival!</p>
+                        <p class="price">R350</p> 
+                       <button class="btn" data-product-id="game003" data-product-name="Fortnite" data-product-price="350.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="latest-item">
+                        <img src="assets/game004.png" alt="Roblox">
+                        <p class="green">#4 Top 10 game!</p>
+                        <p>Roblox Corporation presents to you Roblox! The ultimate virtual universe!
+                            where imagination is just the beginning!</p>
+                        <p class="price">R200</p>
+                       <button class="btn" data-product-id="game004" data-product-name="Roblox" data-product-price="200.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="latest-item">
+                        <img src="assets/game005.png" alt="Sims 4">
+                        <p class="green">#5 Top 10 game!</p>
+                        <p>Maxis Entertainment and Electronic Arts presents Sims 4! A social stimulation game
+                            following the adventures and imagination of Sims 3</p>
+                        <p class="price">R350</p>
+                       <button class="btn" data-product-id="game005" data-product-name="Sims 4" data-product-price="350.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="latest-item">
+                        <img src="assets/game006.png" alt="League of Legends">
+                        <p>Riot Games presents League of Legends! A multiplayer online battle arena game
+                            combating the enemy, Noxus with other realms and nations</p>
+                        <p class="price">R450</p>
+                       <button class="btn" data-product-id="game006" data-product-name="League of Legends" data-product-price="450.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="latest-item">
+                        <img src="assets/game007.png" alt="Dota 2">
+                        <p>Valve Corporation presents Dota 2: a multiplayer online battle arena and the 
+                            sequel to Defense of the Ancients!</p>
+                        <p class="price">R600</p>
+                       <button class="btn" data-product-id="game007" data-product-name="Dota 2" data-product-price="600.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="latest-item">
+                        <img src="assets/game008.png" alt="Valorant">
+                        <p>Riot Games presents Valorant the best 5v5 character-based tactical FPS with
+                            realistic gunplay and agent abilities!</p>
+                        <p class="price">R450</p>
+                       <button class="btn" data-product-id="game008" data-product-name="Valorant" data-product-price="450.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="latest-item">
+                        <img src="assets/game009.png" alt="Apex Legends">
+                        <p>Respawn Entertainment and Electronic Arts presents Apex Legends: the best
+                            Hero Shooter roleplay to ever exist!</p>
+                        <p class="price">R370</p>
+                       <button class="btn" data-product-id="game009" data-product-name="Apex Legends" data-product-price="370.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="latest-item">
+                        <img src="assets/game010.png" alt="Baldur's Gate 3">
+                        <p>Larian Studios presents Baldur's Gate 3 in the Forgotten Realm in the famous
+                            storyline of Dungeons and Dragons!</p>
+                        <p class="price">R500</p>
+                       <button class="btn" data-product-id="game010" data-product-name="Baldur's Gate 3" data-product-price="500.00">Add to Cart!</button> 
+                    </div>
+
+                    <div class="home-link-container"><a href="/index.html" class="home-return-link">Go back to Home</a></div>
+                </div> </div>
+            </div>
+        </section>
+
+        <section id="about-us-section" class="content">
+            <div class="heading" data-aos="fade-down"> 
+                <h1 class="PageHeading">About Us</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper" data-aos="fade-up" data-aos-delay="200">
+                <p>Learn more about Computer Dynamics and our mission</p>
+                <p>Computer Dynamics started on the sole mission to provide quality services and products alike. Our job is to make all customers,
+                    gamers and computer enthusiasts, satisfied after each service with top quality parts, experiences and machines. We were 
+                    founded based on the idea of providing the best wisdom possible based off our expertise from extensive research and interests
+                    alike. We specialise in top gaming experiences, top notch gaming equipment and parts (which includes PC's, laptops, upgrade services  
+                    done for you), and quality graphics.</p>
+            </div>
+        </section>
+
+        <section id="upgrade-services-section" class="content">
+            <div class="heading"> <h1 class="PageHeading">Upgrade Services</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>Boost your current setup with our expertise!</p>
+                <p>Our technicians have been meticulously choosen for your best interest of our expertise. We provide custom built gaming PC's, support
+                    for your best experiences. We also upgrade RAM, GPU, CPU, NIC cards, webcams and etc! Contact us for more information. If you can 
+                    dream it, we can build it!</p>
+                <p>For more queries about your setup or upgrades contact us via the tel:</p>
+                <ul>
+                    <li class="phone">Tel no.: +27 84 199 2456</li>
+                </ul>
+                <p>For more queries about shipment details, our in-store, and warranties contact our support team via email</p>
+                <ul>
+                    <li class="email">Email: computerdy.co.za</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact-us-section" class="content">
+            <div class="heading"> <h1 class="PageHeading">Contact Us</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>For more queries about your setup or upgrades contact us via the tel:</p>
+                <ul>
+                    <li class="phone">Tel no.: +27 84 199 2456</li>
+                </ul>
+                <p>For more queries about shipment details, our in-store, and warranties contact our support team via email</p>
+                <ul>
+                    <li class="email">Email: computerdy.co.za</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="cart-section" class="content">
+            <div class="heading"> <h1 class="PageHeading">Cart</h1></div>
+            <div class="line-divider"></div>
+            <div class="content-wrapper">
+                <p>Review the items in your shopping cart before check out</p>
+                <div class="cart-items-container"></div>
+                <div class="cart-summary">
+                <h5>
+                    <span id="cart-total">R 0.00</span>
+                </h5>
+                    <button id="checkout-btn">Proceed to Checkout</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="copy"><p>&copy; Website: Tara</p></footer>
+    <ul>
+        <li><a href="/index.html">Go back to Home</a></li>
+    </ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init ({
+            duration: 800,
+            easing: 'ease-out',
+            once: true,
+        });
+
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                AOS.refresh();
+            }, 300);
+        });
+    </script>
+
+    <script src="js/cart.js"></script> 
+    <script src="js/main.js"></script>
+    <script src="js/shop.js"></script> 
+</body>
+</html>
