@@ -508,8 +508,8 @@ const shoppingCart = originalItems.map(item => ({
 }));
 
 if (!localStorage.getItem('cart')) {
-    localStorage.setItem('cart', JSON.stringify(shoppingCart));
+    localStorage.setItem('cart', JSON.stringify([]));
     if (typeof window.updateCartIconCount === 'function') {
-        window.updateCartIconCount(shoppingCart);
+        window.updateCartIconCount([]);
     }
 }
