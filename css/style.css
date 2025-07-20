@@ -50,6 +50,23 @@ body {
     margin-top: 80px;
 }
 
+.laptop-container > .cart-return-link,
+.products-preorders-container > .cart-return-link,
+.desktop-container > .cart-return-link,
+.emu-container > .cart-return-link,
+.peri-container > .cart-return-link,
+.game-deal-container > .cart-return-link,
+.game-preorders-container > .cart-return-link,
+.latest-container > .cart-return-link,
+.classic-container > .cart-return-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    margin-top: 80px;
+}
+
 .products-deal-item,
 .products-preorders-item, 
 .laptop-item,
@@ -423,13 +440,15 @@ h2 {
     list-style: none;
 }
 
-.home-link-container {
+.home-link-container,
+.cart-link-container {
     text-align: center;
     margin-top: 10em;
     margin-bottom: 30px;
 }
 
-.home-return-link {
+.home-return-link,
+.cart-return-link {
     text-decoration: underline;
     color: #0066ff;
     font-size: 1.1em;
